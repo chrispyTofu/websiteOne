@@ -1,0 +1,29 @@
+/***********************
+********* Footer ******
+************************/
+#footer {
+	color: #aaa;
+	background: #424651;
+}
+span {
+	padding: 0 1rem;
+	transition: opacity 0.2s;
+}
+span a {
+	color: #B0B2B8;
+	text-transform: uppercase;
+  font-size: 15px;
+	letter-spacing: 1px;
+	line-height: 30px;
+}
+span a:hover {
+	text-decoration: none;
+
+}
+.sibling-fade {
+	display: inline-block;
+	margin: 0;
+}
+.sibling-fade:hover span:not(:hover) {
+	opacity: 0.5;
+}

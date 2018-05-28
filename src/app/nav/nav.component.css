@@ -1,0 +1,58 @@
+
+/*************************
+*******Header******
+**************************/
+.navbar>.container .navbar-brand {
+	margin-left: 0;
+}
+.navbar-brand {
+	padding: 0;
+	margin: 0;
+}
+.navbar {
+	position: fixed;
+	border-radius: 0;
+	margin-bottom: 0;
+	background-color: transparent;
+	padding-top: 5px;
+	z-index: 200;
+}
+.navbar-nav {
+	margin-top: 12px;
+	
+}
+.navbar-nav>li {
+	margin-left: 20px;
+}
+.navbar-inverse .navbar-nav > li > a {
+	padding: 5px 12px;
+	margin: 0;
+	border-radius: 3px;
+	color: #424651;
+	line-height: 10px;
+	display: block;
+	opacity: 0.6;
+	transition: all opacity 0.5s;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+	opacity: 1.0;
+	text-shadow: 1px 0px 0px #424651;
+}
+.navbar-inverse {
+	border: none;
+}
+.navbar-inverse .navbar-brand {
+	font-size: 30px;
+	line-height: 50px;
+	font-weight: 600;
+	color: #424651;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+	background-color: transparent;
+	color: #Ad7A99;
+	opacity: 1.0;
+	font-weight: bolder;
+	text-shadow: 0px 0px 0px #AD7A99;
+
+}

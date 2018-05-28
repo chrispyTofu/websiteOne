@@ -1,0 +1,38 @@
+.page {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.name {
+    padding-top: 5%;
+}
+.name h1 {
+    margin-bottom: 0;
+}
+.name h5 {
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+.name h6 {
+    margin-top: 0;
+}  
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #424642;} /* Green */
+.css {width: 80%; background-color: #424642;} /* Blue */
+.js {width: 65%; background-color: #424642;} /* Red */
+.php {width: 60%; background-color: #424642;} /* Dark Grey */
