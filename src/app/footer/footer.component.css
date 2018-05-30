@@ -21,9 +21,13 @@ span a:hover {
 
 }
 .sibling-fade {
-	display: inline-block;
 	margin: 0;
+	display: inline-block;
 }
 .sibling-fade:hover span:not(:hover) {
 	opacity: 0.5;
+}
+#center-footer {
+	padding: 2%;
+	text-align: center;
 }

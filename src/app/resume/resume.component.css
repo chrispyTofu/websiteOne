@@ -1,38 +1,110 @@
-.page {
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.name {
-    padding-top: 5%;
-}
-.name h1 {
-    margin-bottom: 0;
-}
-.name h5 {
-    margin-top: 0;
-    margin-bottom: 3px;
-}
-.name h6 {
-    margin-top: 0;
-}  
-/* Make sure that padding behaves as expected */
-* {box-sizing:border-box}
-
-/* Container for skill bars */
 .container {
     width: 100%; /* Full width */
-    background-color: #ddd; /* Grey background */
+    background-color: #cedfea; /* Grey background */
+}
+.page {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#resume {
+    padding-top: 10%;
+    text-align: center;
+}
+#hexagon {
+    padding-top: 2%;
+    text-align: center;
 }
 
-.skills {
-    text-align: right; /* Right-align text */
-    padding-right: 20px; /* Add some right padding */
-    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
-    color: white; /* White text color */
+.center {
+    text-align: center;
+}
+.center hr {
+    background-color: #ad7b99;
+    height: 5px;
+    width: 75%;
+}
+.center p {
+    width: 60%;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.chris {
+    font-size: 50px;
+    padding-bottom: 1%;
 }
 
-.html {width: 90%; background-color: #424642;} /* Green */
-.css {width: 80%; background-color: #424642;} /* Blue */
-.js {width: 65%; background-color: #424642;} /* Red */
-.php {width: 60%; background-color: #424642;} /* Dark Grey */
+h4 span {
+    font-size: 20px;
+}
+.bars {
+    padding-bottom: 3%;
+}
+.circles svg {
+    padding-bottom: 3%;
+}
+.circles svg text {
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.timelineTitle {
+    font-weight: bold;
+}
+.timeline ul li {
+    list-style-type: none;
+    position: relative;
+    width: 5px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background: #424651;
+    transform: translate(-400%);
+
+  }
+   
+  .timeline ul li::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 25px;
+    height: 25px;
+    transform: rotate(45deg);
+    transform-origin: 35% -15%;
+    background-color:#424651;
+  }
+  .timeline ul li div {
+    position: relative;
+    bottom: 0;
+    width: 400px;
+    padding: 15px;
+    background: #D9C3D0;
+  }
+   
+  .timeline ul li div::before {
+    content: '';
+    position: absolute;
+    bottom: 7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  .timeline ul li:nth-child(odd) div {
+    left: 45px;
+  }
+   
+  .timeline ul li:nth-child(odd) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #D9C3D0 transparent transparent;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -439px;
+  }
+   
+  .timeline ul li:nth-child(even) div::before {
+    right: -15px;
+    border-width: 8px 0 8px 16px;
+    border-color: transparent transparent transparent #D9C3D0;
+  }
+

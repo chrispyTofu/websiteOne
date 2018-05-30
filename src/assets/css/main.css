@@ -71,7 +71,7 @@ h4 {
 	margin-bottom: 0;
 }
 #intro hr {
-	width: 210px;
+	width: 250px;
 	border-top: 3px solid #424651;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -113,7 +113,7 @@ h4 {
 	font-size: 20px;
 }
 #about-content p {
-	font-size: 18px;
+	font-size: 15px;
     color: #2b4162;
     line-height: 30px;
     letter-spacing: 1px;
@@ -126,7 +126,7 @@ h4 {
 }
 #center {
 	text-align: center;
-	padding: 1%;
+	padding: 10%;
 }
 #center-button {
 	text-align: center;
