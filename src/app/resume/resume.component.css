@@ -47,7 +47,7 @@ h4 span {
 }
 .circles svg text {
     font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 .timelineTitle {
@@ -109,6 +109,43 @@ h4 span {
     right: -15px;
     border-width: 8px 0 8px 16px;
     border-color: transparent transparent transparent #D9C3D0;
+  }
+  .navbar-header button {
+      border: 0;
+  }
+  @media screen and (max-width: 900px) {
+    .timeline ul li div {
+      width: 250px;
+    }
+    .timeline ul li:nth-child(even) div {
+      left: -289px; /*250+45-6*/
+    }
+    .center hr {
+        background-color: #ad7b99;
+        height: 5px;
+        width: 80%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .timeline ul li {
+      margin-left: 20px;
+      transform: translate(-1000%);
+
+    }
+     
+    .timeline ul li div {
+      width: calc(100vw - 180px);
+    }
+     
+    .timeline ul li:nth-child(even) div {
+      left: 45px;
+    }
+     
+    .timeline ul li:nth-child(even) div::before {
+      left: -15px;
+      border-width: 8px 16px 8px 0;
+      border-color: transparent #D9C3D0 transparent transparent;
+    }
   }
   .pdf:hover {
       opacity: 0.8;
