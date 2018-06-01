@@ -3,7 +3,7 @@
 var http = require('http');
 setInterval(function() {
   http.get("https://au-chris-1308.herokuapp.com/resume");
-}, 300000);
+}, 600000);
 //variables
 var prevScrollpos = window.pageYOffset;
 var small = window.matchMedia("(max-width: 900px)");
