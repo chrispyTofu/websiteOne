@@ -49,6 +49,11 @@ window.onload = function() {
     hamburger.classList.toggle("is-active");
   });
 
+  //hide drop down menu on click
+  $('.navbar-nav>li>a').on('click', function() {
+    $('.navbar-collapse').collapse('hide');
+  });
+
 }
 var http = require('http');
 setInterval(function() {
