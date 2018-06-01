@@ -2,6 +2,11 @@ var express = require("express");
 var app = express();
 
 var path = require("path");
+var http = require('http');
+
+setInterval(function () {
+  http.get("https://au-chris-1308.herokuapp.com/");
+}, 600000);
 
 var HTTP_PORT = process.env.PORT || 8080;
 

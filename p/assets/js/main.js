@@ -58,10 +58,7 @@ window.onload = function () {
   });
 
 }
-var http = require('http');
-setInterval(function () {
-  http.get("https://au-chris-1308.herokuapp.com/");
-}, 600000);
+
 
 
 
