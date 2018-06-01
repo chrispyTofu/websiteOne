@@ -41,6 +41,7 @@ h4 span {
 }
 .bars {
     padding-bottom: 3%;
+    padding-right: 10%;
 }
 .circles svg {
     padding-bottom: 3%;
@@ -123,7 +124,14 @@ h4 span {
     .center hr {
         background-color: #ad7b99;
         height: 5px;
-        width: 80%;
+        width: 89%;
+    }
+    h4{
+        font-size: 15px;
+    }
+    .chris {
+        padding-top: 10%;
+        font-size: 35px;
     }
   }
   @media screen and (max-width: 600px) {
@@ -145,6 +153,9 @@ h4 span {
       left: -15px;
       border-width: 8px 16px 8px 0;
       border-color: transparent #D9C3D0 transparent transparent;
+    }
+    .bars {
+        padding-right: 10%;
     }
   }
   .pdf:hover {
