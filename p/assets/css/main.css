@@ -87,9 +87,7 @@ h4 {
 	vertical-align: middle;
 	margin-right: -4px;
 }
-.blue-bg {
-	background-color: #E3EDF3;
-}
+
 #about {
 	padding-top: 5%;
 	padding-bottom: 5%;
@@ -120,7 +118,8 @@ h4 {
 *******Projects******
 **************************/
 .white-bg{
-	background-color: #fff;
+	background: linear-gradient(rgba(228,218,217,1),rgba(228,218,217,0.1));
+	border-top: 2px solid #424651;
 }
 #center {
 	text-align: center;
@@ -128,7 +127,7 @@ h4 {
 }
 #center-button {
 	text-align: center;
-	padding: 10%;
+	padding-top: 5%;
 }
 #project-button{
 	border: 1px solid #424651;
@@ -144,7 +143,7 @@ h4 {
 }
 #project-button:hover {
 	background-color: #424651;
-	color: #fff;
+	color: #F8FAFC;
 	border-radius: 0%;
 }
 .thumbnail {
@@ -202,10 +201,13 @@ h4 {
 	opacity: 1;
 	color: #424651;
 }
-/*************************
-*******Contact******
-**************************/
-
+.center {
+	text-align: center;
+}
+.left {
+	text-align: left;
+	display: inline-block;
+}
 
 @media screen and (max-width: 900px) {
     .thumbnail .overlay {

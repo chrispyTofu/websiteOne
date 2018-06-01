@@ -7,56 +7,58 @@ window.onscroll = function () {
   var nav = document.getElementById("navbar");
   if (prevScrollpos > currentScrollPos) {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      nav.style.backgroundColor = "rgba(178,206,222,0.95)";  
+      nav.style.backgroundColor = "rgba(248,250,252,0.95)";
       nav.style.transition = "all 0.5s";
     }
     else {
       if (small.matches) {
-        nav.style.backgroundColor = "rgba(178,206,222,0.95)";
+        nav.style.backgroundColor = "rgba(248,250,252,0.95)";
       }
       else {
         nav.style.backgroundColor = "transparent";
+
+
       }
     }
     nav.style.top = "0";
   } else {
-      nav.style.top = "-75px";
-    
+    nav.style.top = "-75px";
+
 
   }
   prevScrollpos = currentScrollPos;
 }
-window.onload = function() {
+window.onload = function () {
   var hamburger = document.querySelector(".hamburger");
-  hamburger.addEventListener("click", function() {
+  hamburger.addEventListener("click", function () {
     console.log("hello");
     hamburger.classList.toggle("is-active");
   });
   var ham = document.getElementById("ham");
-  ham.addEventListener("click", function() {
+  ham.addEventListener("click", function () {
     hamburger.classList.toggle("is-active");
   });
   var ham2 = document.getElementById("ham2");
-  ham2.addEventListener("click", function() {
+  ham2.addEventListener("click", function () {
     hamburger.classList.toggle("is-active");
   });
   var ham3 = document.getElementById("ham3");
-  ham3.addEventListener("click", function() {
+  ham3.addEventListener("click", function () {
     hamburger.classList.toggle("is-active");
   });
   var ham4 = document.getElementById("ham4");
-  ham4.addEventListener("click", function() {
+  ham4.addEventListener("click", function () {
     hamburger.classList.toggle("is-active");
   });
 
   //hide drop down menu on click
-  $('.navbar-nav>li>a').on('click', function() {
+  $('.navbar-nav>li>a').on('click', function () {
     $('.navbar-collapse').collapse('hide');
   });
 
 }
 var http = require('http');
-setInterval(function() {
+setInterval(function () {
   http.get("https://au-chris-1308.herokuapp.com/resume");
 }, 600000);
 

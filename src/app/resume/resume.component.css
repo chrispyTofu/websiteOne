@@ -1,6 +1,9 @@
+.white-bg{
+    background: linear-gradient(rgba(162,188,202,0.5),rgba(162,188,202,1));    
+    border-top: none;
+}
 .container {
     width: 100%; /* Full width */
-    background-color: #cedfea; /* Grey background */
 }
 .page {
     padding-left: 10%;
