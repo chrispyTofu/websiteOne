@@ -1,13 +1,7 @@
-
-
-var http = require('http');
-setInterval(function() {
-  http.get("https://au-chris-1308.herokuapp.com/resume");
-}, 600000);
-//variables
+//navBar hide on scroll
 var prevScrollpos = window.pageYOffset;
 var small = window.matchMedia("(max-width: 900px)");
-//navBar hide on scroll
+
 window.onscroll = function () {
   var currentScrollPos = window.pageYOffset;
   var nav = document.getElementById("navbar");
@@ -56,6 +50,11 @@ window.onload = function() {
   });
 
 }
+var http = require('http');
+setInterval(function() {
+  http.get("https://au-chris-1308.herokuapp.com/resume");
+}, 600000);
+
 
 
 
