@@ -118,7 +118,7 @@ h4 {
 *******Projects******
 **************************/
 .white-bg{
-    background: linear-gradient(rgba(162,188,202,1),rgba(162,188,202,0.5));    
+    background: linear-gradient(rgba(162,188,202,0.7),rgba(162,188,202,0.2));    
 	border-top: 2px solid #424651;
 }
 #center {

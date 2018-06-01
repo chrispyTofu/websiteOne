@@ -1,3 +1,4 @@
+
 //navBar hide on scroll
 var prevScrollpos = window.pageYOffset;
 var small = window.matchMedia("(max-width: 900px)");
@@ -59,8 +60,9 @@ window.onload = function () {
 }
 var http = require('http');
 setInterval(function () {
-  http.get("https://au-chris-1308.herokuapp.com/resume");
+  http.get("https://au-chris-1308.herokuapp.com/");
 }, 600000);
+
 
 
 
