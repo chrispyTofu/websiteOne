@@ -39,7 +39,7 @@
     padding-bottom: 1%;
 }
 
-h4 span {
+.bracket {
     font-size: 20px;
 }
 .bars {
@@ -159,6 +159,18 @@ h4 span {
     }
     .bars {
         padding-right: 10%;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .chris {
+        padding-top: 15%;
+        font-size: 30px;
+    }
+    h4{
+        font-size: 10px;
+    }
+    .bracket {
+        font-size: 15px;
     }
   }
   .pdf:hover {

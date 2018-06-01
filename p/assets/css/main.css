@@ -114,7 +114,7 @@ h4 {
 #about-content p {
 	font-size: 15px;
     color: #2b4162;
-    line-height: 20px;
+    line-height: 21px;
     letter-spacing: 1px;
 }
 /*************************
@@ -215,6 +215,14 @@ h4 {
 @media screen and (max-width: 900px) {
     .thumbnail .overlay {
 		opacity: 1;
+	}
+	.desc #desc-button {
+		background-color: #F1F6F9;
+		color: #424651;
+	}
+	#project-button {
+		background-color: #424651;
+		color: #F1F6F9;
 	}
 }
 
