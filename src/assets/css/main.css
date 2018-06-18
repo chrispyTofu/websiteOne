@@ -225,6 +225,15 @@ h4 {
 		color: #F1F6F9;
 	}
 }
+@media screen and (min-width: 1200px) {
+    .nameIntro {
+		background: url("/assets/images/namePic.jpg");
+		background-size: cover;
+		background-position: center;
+		background-color: #F1F6F9;
+		background-blend-mode: multiply;
+	}
+}
 
 
 
